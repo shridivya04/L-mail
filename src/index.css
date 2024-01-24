@@ -1,0 +1,165 @@
+.hero{
+  display:flex;
+  height:100vh;
+  text-align: center;
+  /* background-image: URL('./image/image17.jpg') ; */
+  overflow: hidden;
+}
+.content{
+  display:flex;
+  flex-direction: column;
+max-width: 6200px;
+/* width:100%; */
+margin: 0 auto;
+justify-content:baseline;     
+align-items:last baseline;
+text-align:right;
+background-image: URL('./image/image1.jpg') ;
+background-size: cover;
+/* min-height:100vh;
+min-width:205vh; */
+background-position:0ch;
+padding-left: 50%;
+background-repeat: no-repeat;
+overflow:hidden;
+/* color: rgb(50, 165, 211); */
+}
+.student{
+  display: flex;
+  flex-direction: column;
+  max-width :1200px;
+  width:100%;
+  margin:0 auto;
+  justify-content:baseline;
+  align-items: last baseline;
+  text-align: center;
+  background-size: cover;
+  min-height: 100vh;
+  min-width:205vh;
+  background-position:center;
+right:-200px;
+bottom:-43px;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  max-width :1200px;
+  width:100%;
+  margin:0 auto;
+  justify-content:right;
+  align-items: right;
+  text-align: center ;
+  background-size: cover;
+  min-height: 100vh;
+  min-width:205vh;
+  background-position:center;
+  position: relative;
+  right:-200px;
+  bottom:-43px;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  max-width :1200px;
+  /* width:100%; */
+  margin:0 auto;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  min-height: 150vh;
+  /* min-width:205vh; */
+  background-position:center;         
+  padding: auto;
+  font-weight: 500;
+  color: rgb(83, 172, 207);
+  font-family:Brush Script MT, Brush Script Std, cursive;
+  font-size:200%;
+}
+.contact h5{
+  display: flex;
+  flex-direction: column;
+  max-width :1200px;
+  width:100%;
+  margin:0 auto;
+  justify-content:left;
+  align-items: left;
+  text-align: left;
+  background-size: cover;
+  background-position:center;
+  padding-left: 100% ;
+  position: relative;
+  left:-150px;
+}
+.contact p{
+  position: relative;
+  bottom:-25px;
+  right:-100px;
+}
+.format{
+  position: relative;
+  left:-150px;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  max-width :1200px;
+  width:100%;
+  margin:0 auto;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  min-height: 150vh;
+  min-width:205vh;
+  background-position:center;         
+  padding: auto;
+  font-weight: 500;
+  color: rgb(83, 172, 207);
+  font-family:Brush Script MT, Brush Script Std, cursive;
+  font-size:200%;
+}
+.body{
+  margin:0;
+  padding:0;
+justify-content: center;
+background-color: #eee;
+justify-content: center;
+}
+
+*{
+  box-sizing: border-box;
+}
+form{
+  display: block;
+  background-color: #dbdbdb;
+  box-shadow: 1px 1px 3px 2px #ddd;
+  margin:40px auto;
+  max-width :600px;
+  max-height:700px;
+  padding: 20px;
+}
+form input, textarea{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  margin: 10px auto;
+  padding:auto;
+  font-family:'Courier New', Courier, monospace;
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+}
+form span{
+  color: rgb(0, 42, 56);
+}
+form button{
+  /* height:30px;
+  width:80px;
+  align-items: center; */
+  background-color: rgb(29, 185, 237);
+  color:#fff;
+  /* cursor:pointer; */
+}
+.leave{
+  background-color: #fff;
+}
